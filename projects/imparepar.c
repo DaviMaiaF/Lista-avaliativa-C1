@@ -2,7 +2,7 @@
 
 int main() {
    
-	int calculo, syn;
+	int calculo, soma, dado;
 	scanf("%d", &calculo);
 	
 	if(calculo % 2 == 0){
@@ -12,6 +12,15 @@ int main() {
 	 printf("%d eh impar\n", calculo);
 	}
 	
+	soma = 0;
+	
+	while(calculo > 0){
+		dado = calculo % 10;
+		soma = soma + dado;
+		calculo = calculo / 10;
+	}
+	
+	printf("\n Soma dos digitos do numero dado = %d\n", soma);
     return 0;
 }
 
