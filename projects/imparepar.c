@@ -13,14 +13,22 @@ int main() {
 	}
 	
 	soma = 0;
-	
+	printf("A soma dos algarismos de %d", calculo);
 	while(calculo > 0){
 		dado = calculo % 10;
 		soma = soma + dado;
 		calculo = calculo / 10;
 	}
 	
-	printf("\n Soma dos digitos do numero dado = %d\n", soma);
+	switch(soma){
+		case 0:
+			printf(" eh igual a %d\n", soma);
+			break;
+			default:
+			printf(" eh %d\n", soma);
+			break;
+	}
+	
     return 0;
 }
 
