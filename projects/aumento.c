@@ -5,24 +5,21 @@ void salario_a(){
   float valor1, resultado;
   scanf("%f", &valor1); //armazena o valor
   resultado = valor1 + (valor1 * 0.05);
-  printf("Resultado: %.2f\n\n", resultado);
+  printf("R$ %.2f\n\n", resultado);
 }
 
 void salario_b(){ 
     float valor1, resultado; 
     scanf ("%f", &valor1); 
     resultado = valor1 + (valor1 * 0.07); 
-    printf("\nResultado: %.2f\n\n ", resultado); 
+    printf("R$ %.2f\n\n ", resultado); 
 }
 
 void salario_c(){
-  float valor1, valor2, resultado;
-  printf("Digite o valor do primeiro numero: \n");
+  float valor1, resultado;
   scanf("%f", &valor1);
-  printf("Digite o valor do segundo numero: \n");
-  scanf("%f", &valor2);
-  resultado = valor1 * valor2;
-  printf("\n Resultado: %.2f\n\n", resultado); //realizei quebra de linha
+  resultado = valor1 + (valor1 * 0.08);
+  printf("R$ %.2f\n\n", resultado); //realizei quebra de linha
 }
 
 int main(void) {
@@ -36,7 +33,9 @@ int main(void) {
         salario_b();
     }if (strcmp(entrada, "c") == 0) {
         salario_c();
-    } 
+    } else {
+    	printf("Acesso negado.\n");
+	}
     
   return 0;
   
