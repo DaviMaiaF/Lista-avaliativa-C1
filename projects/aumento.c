@@ -33,9 +33,7 @@ int main(void) {
         salario_b();
     }if (strcmp(entrada, "c") == 0) {
         salario_c();
-    } else {
-    	printf("Acesso negado.\n");
-	}
+    } 
     
   return 0;
   
