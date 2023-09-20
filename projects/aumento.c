@@ -24,7 +24,6 @@ void salario_c(){
 
 int main(void) {
   char entrada[15];
-  printf("Insira uma operacao:\n");
   scanf("%s", entrada);
 
     if (strcmp(entrada, "a") == 0) {
