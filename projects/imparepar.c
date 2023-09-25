@@ -20,14 +20,9 @@ int main() {
 		calculo = calculo / 10;
 	}
 	
-	switch(soma){
-		case 0:
-			printf(" eh igual a %d\n", soma);
-			break;
-			default:
-			printf(" eh %d\n", soma);
-			break;
-	}
+
+	printf(" eh igual a %d\n", soma);
+
 	
     return 0;
 }
