@@ -21,7 +21,7 @@ int main() {
         if (numero2 != 0 && numero1 % numero2 == 0) {
             printf("%d eh multiplo de %d\n", numero1, numero2);
         } else {
-            printf("%d nao eh multiplo de %d\n", numero1, numero2);
+            printf("%d nao eh multiplo de %d\n", numero2, numero1);
         }
     } 
     
