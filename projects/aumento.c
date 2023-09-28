@@ -5,21 +5,21 @@ void salario_a(){
   float valor1, resultado;
   scanf("%f", &valor1); //armazena o valor
   resultado = valor1 + (valor1 * 0.05);
-  printf("R$ %.2f\n\n", resultado);
+  printf("R$ %.2f\n", resultado);
 }
 
 void salario_b(){ 
     float valor1, resultado; 
     scanf ("%f", &valor1); 
     resultado = valor1 + (valor1 * 0.07); 
-    printf("R$ %.2f\n\n ", resultado); 
+    printf("R$ %.2f\n", resultado); 
 }
 
 void salario_c(){
   float valor1, resultado;
   scanf("%f", &valor1);
   resultado = valor1 + (valor1 * 0.08);
-  printf("R$ %.2f\n\n", resultado); //realizei quebra de linha
+  printf("R$ %.2f\n", resultado); //realizei quebra de linha
 }
 
 int main(void) {
