@@ -9,8 +9,7 @@ int main() {
     scanf("%s", senha_salva);
     printf("senha cadastrada: %s\n", senha_salva);
 
-    // Limpe o buffer de entrada
-    while (getchar() != '\n');
+
     
     while (1) {
     	// Solicite ao usuário que insira a senha
